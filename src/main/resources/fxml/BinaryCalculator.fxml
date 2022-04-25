@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ElsoSzamText" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BinaryCalculatorController">
+   <children>
+      <Label layoutX="28.0" layoutY="45.0" text="Első szám:" />
+      <Label layoutX="28.0" layoutY="76.0" text="Második szám:" />
+      <TextField layoutX="106.0" layoutY="41.0" />
+      <TextField fx:id="masodikSzamText" layoutX="106.0" layoutY="72.0" />
+      <Button fx:id="osszeadas" layoutX="28.0" layoutY="129.0" mnemonicParsing="false" onAction="#osszead" text="+" />
+      <Button fx:id="kivonas" layoutX="67.0" layoutY="129.0" mnemonicParsing="false" onAction="#kivon" text="-" />
+      <Button fx:id="szorzas" layoutX="141.0" layoutY="129.0" mnemonicParsing="false" onAction="#szoroz" text="*" />
+      <Button fx:id="osztas" layoutX="229.0" layoutY="129.0" mnemonicParsing="false" onAction="#oszt" text="/" />
+      <Label layoutX="53.0" layoutY="258.0" prefHeight="17.0" prefWidth="62.0" text="Eredmény:" />
+      <Label fx:id="eredmenyLabel" layoutX="121.0" layoutY="258.0" prefHeight="25.0" prefWidth="140.0" />
+   </children>
+</AnchorPane>
